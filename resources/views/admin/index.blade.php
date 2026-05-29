@@ -21,10 +21,10 @@
       </section>
 
       <section class="grid-4" style="margin-top:18px">
-        <div class="card metric"><div class="label">Vendas do mes</div><div class="value">R$ 84.950</div><span class="pill success">+12.4%</span></div>
-        <div class="card metric"><div class="label">Pedidos hoje</div><div class="value">148</div><span class="pill success">Operacao estavel</span></div>
-        <div class="card metric"><div class="label">Clientes ativos</div><div class="value">2.431</div><span class="pill warning">+198 novos</span></div>
-        <div class="card metric"><div class="label">Itens em baixo estoque</div><div class="value">17</div><span class="pill danger">Atencao</span></div>
+        <div class="card metric"><div class="label">Total de produtos</div><div class="value">{{ $totalProdutos }}</div><span class="pill success">No catálogo</span></div>
+        <div class="card metric"><div class="label">Estoque total</div><div class="value">{{ $totalEstoque }}</div><span class="pill success">Unidades</span></div>
+        <div class="card metric"><div class="label">Clientes cadastrados</div><div class="value">{{ $totalClientes }}</div><span class="pill warning">Na base</span></div>
+        <div class="card metric"><div class="label">Itens em baixo estoque</div><div class="value">{{ $baixoEstoque }}</div><span class="pill danger">Atenção</span></div>
       </section>
 
       <section class="grid-main" style="margin-top:18px">
